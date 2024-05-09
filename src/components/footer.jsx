@@ -5,7 +5,9 @@ import "../styles/footer.css";
 const footer = () => {
   return (
     <div className="footer-container">
-      <img src={Logo} alt="logo" />
+      <a href="/tlk-us">
+        <img src={Logo} alt="logo" />
+      </a>
     </div>
   );
 };

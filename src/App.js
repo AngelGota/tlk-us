@@ -18,7 +18,7 @@ function App() {
         <Separator />
         <PriceEvent />
         <Routes>
-          <Route path="/carshop" element={<CarShop />} />
+          <Route path="/tlk-us/carshop" element={<CarShop />} />
         </Routes>
         <InfoEvent />
         <Legal />

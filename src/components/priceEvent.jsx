@@ -40,7 +40,7 @@ const PriceEvent = () => {
           </div>
         </div>
         <div className="buttons-container">
-          <Link to="/carshop">
+          <Link to="/tlk-us/carshop">
             <button className="buy-tickets-button">Comprar tickets</button>
           </Link>
 

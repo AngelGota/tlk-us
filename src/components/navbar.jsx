@@ -6,14 +6,14 @@ const navbar = () => {
   return (
     <div className="navbar-container" id="inicio">
       <div className="logo-container">
-        <a href="/">
+        <a href="/tlk-us">
           <img src={Logo} alt="logo de la empresa" />
         </a>
       </div>
       <div className="opciones-container">
         <ul>
           <li>
-            <a href="/">Inicio</a>
+            <a href="/tlk-us">Inicio</a>
           </li>
           <li>
             <a href="#informacion">Info</a>
