@@ -1,9 +1,9 @@
 # Getting Started with Create React App
 Web design developed for fun, aimed to recreate a famous ticket-selling page in Peru, in my own style using React.
-- Live: <a https://tlk-us.vercel.app/" target="_blank">[SITE DEPLOY!]</a>
+- Live: <a href="https://tlk-us.vercel.app/" target="_blank">SITE DEPLOY!</a>
 - Use: React
 
-![Desktop preview](./design/desktop-preview.jpg)
+![Desktop preview](./design/desktop-design.jpg)
 
 
 
