@@ -2,7 +2,7 @@
 
 Web design developed for fun, aimed to recreate a famous ticket-selling page in Peru, in my own style using React.
 
-- Live: <a href="https://tlk-us.vercel.app/" target="_blank">SITE DEPLOY!</a>
+- Live: <a href="https://tlk-us.angelogomez.pro/" target="_blank">SITE DEPLOY!</a>
 - Use: React
 
 ![Desktop preview](./design/desktop-design.jpg)
