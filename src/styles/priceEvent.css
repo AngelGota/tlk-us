@@ -1,0 +1,93 @@
+.price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  background-color: black;
+}
+
+.prices-section {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.price-grid {
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+}
+
+.title-category {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid #fff;
+}
+
+.title-price {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid #fff;
+}
+
+.category,
+.price {
+  padding: 8px;
+  font-size: 25px;
+  color: white;
+}
+
+.category {
+  text-align: left;
+}
+
+.escenary-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.escenary-image {
+  width: 90%;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.buy-tickets-button {
+  padding: 10px 20px;
+  background-color: red;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.need-help-link {
+  padding: 10px 20px;
+  color: white;
+  transition: color 0.3s, color 0.3s;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.buy-tickets-button:hover {
+  background-color: #6b00b3;
+}
+
+.need-help-link:hover {
+  color: #6b00b3;
+}
