@@ -5,7 +5,7 @@ import "../styles/infoEvent.css";
 
 const inforEvent = () => {
   return (
-    <div className="info-container">
+    <div className="info-container" id="informacion">
       <div className="img-container">
         <img src={LogoInfo} alt="informacion logo" />
       </div>

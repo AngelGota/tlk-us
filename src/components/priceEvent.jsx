@@ -5,7 +5,7 @@ import "../styles/priceEvent.css";
 
 const PriceEvent = () => {
   return (
-    <div className="price-container">
+    <div className="price-container" id="precios">
       <div className="escenary-container">
         <img
           src={Escenary}

@@ -5,7 +5,7 @@ import "../styles/legal.css";
 
 const legal = () => {
   return (
-    <div className="legal-container">
+    <div className="legal-container" id="legales">
       <div className="danna-title">
         <img src={DannaLive} alt="danna live" />
       </div>
