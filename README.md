@@ -1,12 +1,11 @@
 # Getting Started with Create React App
+
 Web design developed for fun, aimed to recreate a famous ticket-selling page in Peru, in my own style using React.
+
 - Live: <a href="https://tlk-us.vercel.app/" target="_blank">SITE DEPLOY!</a>
 - Use: React
 
 ![Desktop preview](./design/desktop-design.jpg)
-
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -76,4 +75,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # tlk-us
