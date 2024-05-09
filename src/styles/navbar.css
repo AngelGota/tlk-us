@@ -41,3 +41,9 @@
 .opciones-container ul li a:hover {
   color: #ff0000;
 }
+
+@media (max-width: 768px) {
+  .opciones-container {
+    display: none;
+  }
+}

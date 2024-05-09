@@ -1,9 +1,11 @@
 import React from "react";
+import Logo from "../assets/svgs/logo.svg";
+import "../styles/footer.css";
 
 const footer = () => {
   return (
-    <div>
-      <h1>footer</h1>
+    <div className="footer-container">
+      <img src={Logo} alt="logo" />
     </div>
   );
 };

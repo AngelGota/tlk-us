@@ -1,5 +1,6 @@
 import React from "react";
 import Escenary from "../assets/images/mapadanna.png";
+import { Link } from "react-router-dom";
 import "../styles/priceEvent.css";
 
 const PriceEvent = () => {
@@ -39,7 +40,10 @@ const PriceEvent = () => {
           </div>
         </div>
         <div className="buttons-container">
-          <button className="buy-tickets-button">Comprar tickets</button>
+          <Link to="/carshop">
+            <button className="buy-tickets-button">Comprar tickets</button>
+          </Link>
+
           <a className="need-help-link" href="https://www.google.com">
             ¿Necesitas ayuda?
           </a>

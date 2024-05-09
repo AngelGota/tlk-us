@@ -1,0 +1,67 @@
+/* Estilos base */
+.info-container {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px 0px;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.texto-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  flex: 1;
+  text-align: left;
+}
+
+.texto-container img {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 100%;
+}
+
+.texto-container p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 968px) {
+  .info-container {
+    flex-direction: column;
+    width: 90%;
+    padding: 50px 0;
+  }
+  .info-container img {
+    width: 90%;
+  }
+
+  .texto-container {
+    padding: 20px;
+  }
+
+  .texto-container img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .info-container {
+    width: 90%;
+  }
+  .info-container img {
+    width: 90%;
+  }
+
+  .texto-container {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .texto-container img {
+    width: 90%;
+    margin: 20px auto 0;
+  }
+}

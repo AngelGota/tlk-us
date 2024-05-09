@@ -1,0 +1,42 @@
+/* Estilos base */
+.legal-container {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.danna-title {
+  margin-bottom: 20px;
+}
+
+.lista-container {
+  margin-bottom: 20px;
+}
+
+.partners-container {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .legal-container {
+    padding: 10px;
+  }
+
+  .danna-title img,
+  .partners-container img {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .lista-container {
+    padding: 0 10px;
+  }
+}
